@@ -1,0 +1,75 @@
+:root{
+    padding: 0%;
+    margin: 0%;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(assets/icomoon/fonts/icomoon.woff);
+}
+
+body{
+    background-image: url('assets/bg.webp');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;  
+    display: flex;
+    justify-content: center;
+    flex-direction: row;  
+}
+
+.cards{
+    margin: 10px;
+    margin-top: 100px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: white;
+}
+.content{
+    padding-left: 4%;
+}
+
+.name{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cards img {
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    margin-top: -30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user-tie::before {
+    content: xe976;
+}
+
+.underline {
+
+    
+    text-align: center;
+    position: relative;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 25%);
+    width: 80%;
+    height: 2px;
+    background-color: black; 
+    content: '';
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 1px;
+}
